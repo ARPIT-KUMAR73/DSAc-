@@ -8,9 +8,7 @@ int main()
     cin>> n;
     cout<<" Enter elements : ";
     for (int i = 0; i < n; i++)
-    {
-        cin>>arr[i];
-    }
+     cin>>arr[i];
     
     // Bubble sort
     for (int i = n-2 ; i >= 0; i--)
@@ -23,13 +21,8 @@ int main()
                 swap(arr[j], arr[j+1]);
                 swapped = 1;
             }
-            if (swapped == 0)
-            {
-                break;
-            }
-            
         }
-        
+         if (swapped == 0) break;
     }
     
     // print array
